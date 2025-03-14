@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXBDASignalSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'ruixue RXBDASignalSDK framework.'
 
 # This description is used to generate tags and improve searc results.
@@ -39,6 +39,7 @@ TODO: Add long description of the pod here.
   
 #
   s.platform = :ios, '12.0'
-  s.dependency 'WechatOpenSDK', '2.0.4'
+  s.dependency 'BDASignalSDK'
+  s.dependency 'Protobuf'
   
 end
